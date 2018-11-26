@@ -1,0 +1,34 @@
+{
+  "name": "esg-downloader",
+  "version": "0.0.1",
+  "description": "ESG Teacher Image Downloader",
+  "main": "index.js",
+  "scripts": {
+    "run": "electron .",
+    "package": "electron-packager ./ --overwrite --asar=true --platform=win32 --arch=ia32 --ignore=releases --icon=./releases/icons/setup.ico --prune=true --out=releases/ --version-string.ProductName=\"ESG Teacher Image Downloader\"",
+    "installer": "cd releases && node ./createinstaller.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.10",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "update-electron-app": "^1.3.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron-winstaller": "^2.7.0"
+  },
+  "author": "PseudoOutlandish",
+  "productName": "ESG Teacher Image Downloader",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/PseudoOutlandish/esgdl.git"
+  }
+}
