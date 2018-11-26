@@ -64,7 +64,7 @@ function makeList(teachers) {
 	teachers.forEach(function(teacher) {
 		$("#teacherlist").append('<div class="mdl-list__item">' +
 					'<span class="mdl-list__item-primary-content">'+
-						'<i class="material-icons mdl-list__item-avatar">person</i>'+
+						'<div class="mdl-list__item-avatar" style="background-image: url('+teacher.img+'); background-size: cover; background-position: center;"></div>'+
 						'<span>'+teacher.name+'</span>'+
 					'</span>'+
 					'<a class="mdl-list__item-secondary-action" href="'+teacher.img+'" target="_blank"><i class="material-icons">visibility</i></a>'+
