@@ -8,7 +8,7 @@
     "package": "electron-packager ./ --overwrite --asar=true --platform=win32 --arch=ia32 --ignore=releases --icon=./releases/icons/setup.ico --prune=true --out=releases/ --version-string.ProductName=\"ESG Teacher Image Downloader\"",
     "installer": "cd releases && node ./createinstaller.js"
   },
-  "author": "",
+  "author": "PseudoOutlandish",
   "license": "ISC",
   "dependencies": {
     "electron": "^3.0.10",
@@ -25,10 +25,9 @@
   "devDependencies": {
     "electron-winstaller": "^2.7.0"
   },
-  "author": "PseudoOutlandish",
   "productName": "ESG Teacher Image Downloader",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/PseudoOutlandish/esgdl.git"
+    "type": "git",
+    "url": "https://github.com/PseudoOutlandish/esgdl.git"
   }
 }

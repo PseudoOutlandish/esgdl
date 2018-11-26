@@ -4,7 +4,7 @@ if (setupEvents.handleSquirrelEvent()) {
 	return;
 }
 
-
+require('update-electron-app')()
 
 const {app, BrowserWindow, dialog, Menu, MenuItem, shell, ipcMain, crashReporter, protocol} = require('electron')
 const path = require('path')
