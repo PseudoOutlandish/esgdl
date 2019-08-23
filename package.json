@@ -1,6 +1,6 @@
 {
   "name": "esg-downloader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESG Teacher Image Downloader",
   "main": "index.js",
   "scripts": {
