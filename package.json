@@ -11,7 +11,7 @@
   "author": "PseudoOutlandish",
   "license": "ISC",
   "dependencies": {
-    "electron": "^3.0.10",
+    "electron": "^11.5.0",
     "fs": "0.0.1-security",
     "http": "0.0.0",
     "https": "^1.0.0",
